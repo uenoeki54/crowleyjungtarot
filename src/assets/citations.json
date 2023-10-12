@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "quote": "It's all a great war, and there's earthquakes and chariots of fire, and all the castles breaking to pieces.",
+    "author": "Aleister Crowley"
+  },
+  {
+    "id": 2,
+    "quote": "History proves that man is a beast of prey.",
+    "author": "Richard Wagner"
+  },
+  {
+    "id": 3,
+    "quote": "In all chaos there is a cosmos, in all disorder a secret order.",
+    "author": "Carl Gustav Jung"
+  },
+  {
+    "id": 4,
+    "quote": "Balance every thought with its opposition. Because the marriage of them is the destruction of illusion.",
+    "author": "Aleister Crowley"
+  },
+  {
+    "id": 5,
+    "quote": "That is perhaps what we seek throughout life, that and nothing more, the greatest possible sorrow so as to become fully ourselves before dying.",
+    "author": "Louis Ferdinand Celine"
+  },
+  {
+    "id": 6,
+    "quote": "Tous les péchés, ma chère amie, viennent du désert, c'est le vent brûlant du sud qui nous les apporte.",
+    "author": "Hanns Heinz Ewers"
+  }
+]

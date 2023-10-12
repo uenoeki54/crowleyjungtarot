@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+$main-beige: #f3e7a2;
+$font-color: #964712;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.app {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: $font-color;
+  margin: 0px;
+  padding: 0px;
+}
+// GESTION DU DARK MODE
+button {
+  position: fixed;
+  right: 50px;
+  top: 175px;
+  color: white;
+  font-size: 9px;
+  width: 120px;
+  height: 60px;
+  border-radius: 7px;
+  z-index: 10;
+}
+
+.light {
+  color: $font-color;
+  background-color: $main-beige;
+  button {
+    background-color: $font-color;
+    color: $main-beige;
+  }
+  .text-position {
+    color: $main-beige;
+    background-image: url('../assets/banner-evil-dead-rise.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.dark {
+  color: $main-beige !important;
+  background-color: $font-color !important;
+  button {
+    color: $font-color;
+    background-color: $main-beige;
+  }
+
+  .text-position {
+    background-image: url('../assets/banner.avif');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    overflow: hidden;
+
+    width: 100%;
+  }
+}
+body {
+  overflow: scroll;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  height: 200px;
+}
+.text-position {
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  top: 0;
+
+  .quote-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+
+    .text-and-author {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      p {
+        font-size: 25px;
+      }
+      aside {
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    i {
+      color: white;
+      font-size: 30px;
+    }
+  }
+}
+
+.contenu {
+  position: relative;
+}
+
+.menu {
+  position: fixed;
+  display: block;
+  top: 250px;
+  left: 10px;
+  z-index: 1;
+  width: 15%;
+  height: 300px;
+  border-right: solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(240, 146, 40, 1),
+      rgba(255, 227, 154, 1)
+    )
+    1 100%;
+  // border-radius: 0px 10px 0px 10px;
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(240, 146, 40, 1) 17%,
+  //   rgba(255, 227, 154, 1) 100%
+  // );
+  overflow: scroll;
+  scrollbar-color: #43180e #e1d79a;
+  scrollbar-width: thin;
+  @media (max-width: 1920px) {
+    top: 300px;
+  }
+  @media (max-width: 1536px) {
+    top: 250px;
+  }
+  @media (max-width: 1366px) {
+    top: 220px;
+  }
+  @media (max-width: 800px) {
+    top: 162px;
+  }
+  @media (max-width: 650px) {
+    top: 132px;
+  }
+  @media (max-width: 500px) {
+    top: 102px;
+  }
+  @media (max-width: 414px) {
+    top: 83px;
+  }
+  @media (max-width: 375px) {
+    top: 73px;
+  }
+  @media (max-width: 360px) {
+    top: 70px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .back-home {
+    color: orange;
+    margin-left: 40px;
+  }
+}
+.main {
+  font-family: Open Sans;
+
+  width: 100%;
+  .text {
+    margin-right: 5%;
+    margin-left: 20%;
+    padding-top: 250px;
+    width: 55%;
+  }
+  .main-illustration {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    width: 400px;
+    @media (max-width: 1920px) {
+      top: 300px;
+      width: 300px;
+    }
+    @media (max-width: 1536px) {
+      top: 250px;
+      width: 250px;
+    }
+    @media (max-width: 1366px) {
+      top: 220px;
+      width: 220px;
+    }
+    @media (max-width: 800px) {
+      top: 162px;
+      width: 162px;
+    }
+    @media (max-width: 650px) {
+      top: 132px;
+      width: 130px;
+    }
+    @media (max-width: 500px) {
+      top: 102px;
+      width: 102px;
+    }
+    @media (max-width: 414px) {
+      top: 83px;
+      width: 83px;
+    }
+    @media (max-width: 375px) {
+      top: 73px;
+      width: 73px;
+    }
+    @media (max-width: 360px) {
+      top: 70px;
+      width: 70px;
+    }
+  }
+}
+
+.error {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 300px 0px 0px 300px;
+
+  h1 {
+    display: block;
+  }
+}
